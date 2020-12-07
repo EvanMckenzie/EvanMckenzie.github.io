@@ -3,33 +3,76 @@
 
   <head>
     <title>Evan Mckenzie - Home</title>
+    <!-- meta tags -->
     <meta charset="utf-8" http-equiv="content-type" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="description" content="This is the home page of one Evan Mckenzie! He does engineering and sometimes other stuff. Occasionally that stuff can be found here!">
     <meta name="keywords" content="Evan, Evan Mckenzie, UVM, University of Vermont, NYC, New York, Engineer, Engineering">
     <meta name="author" content="Evan Mckenzie">
-    
-
   </head>
 
   <body>
-    <!-- Home page heading and welcome line-->
-    <h1>Hello! 👋 Welcome to my Home Page.</h1>
-    <p>Here you can learn a little bit about me.</p>
+    <!-- div set up for heading picture -->
+    <div class="container" style="height:0">
+      ::before
+      <div class="row row-centered">
+        ::before
+        <div class="col-md-1"></div>
+        <div class="col-mid-10"></div> <!-- 10x width of col-mid-1 div-->
+        ::after
+      </div>
+      ::after
+    </div>
+    <div class="heading-picture"></div>
 
-    <!-- blurb to direct to projects and resume -->
-    <p>
-      To find about what sorts of projects I've worked on, you can head over to
-      <a href="/projects">Projects</a>
-      . If you're looking to know more about my professional life, go ahead and peruse my
-      <a href="/resume">resume</a>
-      .
-    </p>
+    <!-- div set up for welcome blurb -->
+    <div class="container" style="height:0">
+      ::before
+      <div class="row row-centered">
+        ::before
+        <div class="col-mid-1"></div>
+        <div class="col-mid-10">
 
-    <footer>
-      <p>
-        Link to LinkedIn & give "back to top" option
-      </p>
-    </footer>
+          <!-- Home page heading and welcome line-->
+          <h1>Hello! 👋 Welcome to my Home Page.</h1>
+          <p>Here you can learn a little bit about me.</p>
+
+          <!-- blurb to direct to projects and resume -->
+          <p>
+            To find about what sorts of projects I've worked on, you can head over to
+            <a href="/projects">Projects</a>
+            . If you're looking to know more about my professional life, go ahead and peruse my
+            <a href="/resume">resume</a>
+            .
+          </p>
+          <footer>
+
+            <ul class="left-side">
+              <li>Evan Mckenzie</li>
+              <li>
+                <span class="linkedin-spacer"></span>
+              </li>
+              <li>
+                <a target="_blank" href="https://linedin.com/in/evanmckenzie">
+                  LinkedIn
+                </a>
+              </li>
+            </ul> <!-- footer left side -->
+
+            <ul class="right-side">
+              <li>
+                <a href="#">
+                  Back to Top
+                </a>
+              </li>
+            </ul> <!-- footer right side -->
+
+
+          </footer>
+        </div> <!-- div col-mid-10-->
+        ::after
+      </div> <!-- div row row-centered-->
+      ::after
+    </div> <!-- div container-->
   </body>
 </html>
