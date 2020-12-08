@@ -23,7 +23,7 @@
       </div>
       ::after
     </div>
-    <div class="heading-picture"></div>
+    <div class="heading-picture"> <!-- insert heading picture here --></div>
 
     <!-- div container  -->
       <!-- div row row-centered -->
@@ -31,69 +31,83 @@
 
     <div class="container" style="height:0">
       <div class="row row-centered">
-        <div class="nav">
-          <!-- div col-mid-10 for center image -->
-          <div class="col-mid-10">
-            <!-- center image insertion -->
-
-            <!-- div secion Resume Heading w/ name + general career specialization -->
-          </div>
-        </div>
-
+        <div class="col-mid-1"></div>
         <div class="col-mid-10">
-          <div class="education-section">
-          <!-- div section education -->
-            <section>
-              <strong><h1>Education</h1></strong>
+          <div id="resume">
+            <div id="profile-picture-wrap" class="scroll-to-fixed-fixed" style="z-index: 9999; position: fized; top: 0px; margin-left: 0px; left: 895.5px;"> <!-- requires other details but idk what they do -->
+              <!-- image tag here -->
+            </div>
+
+            <header id="main-nav" class="centered-navigation scroll-to-fixed-fixed" role="banner" style="z-index: 1000; position: fixed; top: 0px; margin-left: 0px; width: 945px; left: 479px;">
+              <div class="centered-navigation-wrapper">
+                <!-- some JS stuff, will have to look back into -->
+                <nav role="navigation">
+                  <ul>
+                    <li class="nav-link">
+                      <a href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="#skills">Skills</a>
+                    </li>
+                    <li id="prof-pic-filler-li" class="nav-link">
+                      <span id="prof-pic-filler" style="width: 3em;"></span>
+                    </li>
+                    <li class="nav-link">
+                      <a href="#certifications">Certifications</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+
+            <div style="display: block; width: 945px; height: 61px; float: none;"></div> <!-- pretty sure this is the line underneatht the nav section -->
+
+            <section id="name">
+
             </section>
-            <ul>
+
+            <section id="education">
+
+            </section>
+
+            <section id="experience">
+
+            </section>
+
+            <section id="skills">
+
+            </section>
+
+            <section id="certifications">
+
+            </section>
+
+          </div> <!-- div resume -->
+
+          <footer>
+            <ul class="left-side">
+              <li>Evan Mckenzie</li>
               <li>
-                <h2>University of Vermont</h2>
+                <span class="linkedin-spacer"></span>
               </li>
               <li>
-                <h4>B.S. Mechanical Engineering<h4>
+                <a target="_blank" href="https://linkedin.com/in/evanmckenzie">
+                  LinkedIn
+                </a>
               </li>
+            </ul> <!-- footer left side -->
 
-            </ul>
+            <ul class="right-side">
+              <li>
+                <a href="#">
+                  Back to Top
+                </a>
+              </li>
+            </ul> <!-- footer right side -->
+          </footer>
 
-            <!-- unordered list -->
-          </div>
-
-          <div class="experience-section">
-          <!-- div section experience -->
-            <section>
-              <strong><h3>Experience</h3></strong>
-            </section>
-              <!-- unordered list for positions/companies -->
-                <!-- unordered list for individual experiences -->
-          </div>
-
-          <div class="skills-section">
-            <section>
-              ?<strong><h3>Skills Overview</h3></strong>
-            </section>
-            <!-- div section skills/skillset overview + star rating? -->
-              <!-- unordered list -->
-          </div>
-          <strong><h3>Certifications</h3></strong>
-
-          <div class="certification-section">
-            <section>
-              <ul>
-                <li>
-                  <strong>Certified Quality Improvement Associate</strong>
-                </li>
-              </ul>
-
-            </section>
-            <!-- div section certifications -->
-              <!-- unordered list -->
-          </div>
-
-
-        </div> <!-- div col-mid-10 -->
-
-      </div> <!--div row row-centered  -->
+        </div> <!-- div col mid 10 -->
+      </div> <!-- div row row-centered -->
     </div> <!-- div container -->
   </body>
 </html>
