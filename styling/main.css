@@ -1,0 +1,25 @@
+.container {
+  border-style: solid;
+
+}
+
+.row-centered {
+  border-style: solid;
+
+}
+
+.column-centered {
+  border-style: solid;
+
+}
+
+.heading-picture {
+  height: 500px;
+  border-style: solid;
+  background-size: auto 100%; 
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(/styling/nyc-skyline.jpg);
+
+}
