@@ -29,7 +29,7 @@ html{
 .heading-picture {
   height: 500px;
   border-style: solid;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
