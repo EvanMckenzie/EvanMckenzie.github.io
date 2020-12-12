@@ -23,6 +23,7 @@ html{
 }
 
 .heading-picture {
+  height: 500px;
   border-style: solid;
   background-size: auto 50%;
   background-position: center;
