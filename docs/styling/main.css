@@ -2,8 +2,10 @@
 html{
   box-sizing: border-box;}
 
+/*
 *, *::after, *::before {
   box-sizing: inherit;}
+  */
 
 .container {
   border-style: dotted;
@@ -23,7 +25,7 @@ html{
 .heading-picture {
   height: 500px;
   border-style: solid;
-  background-size: auto 100%;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
