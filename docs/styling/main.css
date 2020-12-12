@@ -28,9 +28,8 @@ html{
 
 .heading-picture {
   height: 500px;
-  width: auto;
   border-style: solid;
-  background-size: cover;
+  background-size: auto 100%;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
