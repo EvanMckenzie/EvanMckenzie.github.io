@@ -13,17 +13,18 @@ html{
 }
 
 .row-centered {
-  border-style: dotted;
+
 
 }
 
 .column-centered {
-  border-style: dotted;
+
 
 }
 
 .heading-picture {
   height: 500px;
+  width: auto;
   border-style: solid;
   background-size: auto 50%;
   background-position: center;
