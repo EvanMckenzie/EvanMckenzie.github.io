@@ -29,10 +29,10 @@ html{
 .heading-picture {
   height: 500px;
   border-style: solid;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url(/styling/nyc-skyline.jpg);
+  background-image: url(/styling/nyc-skyline-cropped.jpg);
 
 }
