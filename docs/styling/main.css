@@ -13,11 +13,15 @@ html{
 }
 
 .row-centered {
+  margin-left: auto;
+  margin-right: auto;
 
 
 }
 
 .column-centered {
+  margin-left: auto;
+  margin-right: auto;
 
 
 }
