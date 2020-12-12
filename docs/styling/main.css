@@ -6,17 +6,17 @@ html{
   box-sizing: inherit;}
 
 .container {
-  border-style: solid;
+  border-style: dotted;
 
 }
 
 .row-centered {
-  border-style: solid;
+  border-style: dotted;
 
 }
 
 .column-centered {
-  border-style: solid;
+  border-style: dotted;
 
 }
 
