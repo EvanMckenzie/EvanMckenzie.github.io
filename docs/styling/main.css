@@ -30,7 +30,7 @@ html{
   height: 500px;
   border-style: solid;
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(/styling/nyc-sunset-cropped.jpg);
