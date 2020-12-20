@@ -8,12 +8,13 @@ html{
   */
 
 .container {
-  background-color: rgb(24, 26, 27)
+  background-color: rgb(24, 26, 27);
 
 
 }
 
 .row-centered {
+  background-color: rgb(24, 26, 27);
   margin-left: auto;
   margin-right: auto;
   max-width: 975px;
@@ -22,6 +23,7 @@ html{
 }
 
 .column-centered {
+  background-color: rgb(24, 26, 27);
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -32,6 +34,7 @@ html{
 }
 
 .heading-picture {
+  background-color: rgb(24, 26, 27);
   margin: 0;
   padding: 0;
   border: 0;
