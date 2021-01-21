@@ -12,7 +12,13 @@ body {
   margin:0;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
 
+.jumbotron {
+  margin-bottom: 0;
+}
 
 .heading-picture {
 
