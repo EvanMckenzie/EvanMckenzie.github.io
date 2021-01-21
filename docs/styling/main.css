@@ -37,6 +37,7 @@ body {
 
 }
 
+/*
 .heading-picture {
 
   margin: 0;
@@ -51,6 +52,7 @@ body {
 
 }
 
+
 .heading-picture-mobile {
 
   height: 500px;
@@ -61,6 +63,7 @@ body {
   background-image: url(/styling/nyc-sunset-cropped.jpg);
 
 }
+*/
 
 .footer{
   position: fixed;
