@@ -46,7 +46,7 @@ body {
   height: 500px;
   background-size: contain;
   background-position: top;
-
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(/styling/nyc-sunset-cropped.jpg);
 
