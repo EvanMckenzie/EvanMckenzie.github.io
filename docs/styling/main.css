@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+.container-fluid {
+  margin:0;
+}
+
 .jumbotron  {
   margin: 0;
 }
