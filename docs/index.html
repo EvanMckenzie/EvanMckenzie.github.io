@@ -100,31 +100,47 @@
           <h1>Hello there! 👋  Welcome to my Home Page. </h1>
           <p><br>It's still a "work-in-progress" but here you can learn a little bit about me.</p>
 
-          <!-- blurb to direct to projects and resume -->
-          <p>
-            I am an electromechanical engineer with experience working in the medical device industry as a product designer and in manufacturing development. I believe that engineering is a skillset best used to develop products that enrich the lives of their users.
-            <br>I have worked at Healthy Design Ltd., a start-up developing a novel restraint for patients in acute care, and Revision Military, a military hardware development company. At Healthy Design Ltd., I established a fully ISO 13485 compliant Quality Management System as well as product manufacturing system. At Revision Military, I recalibrated and reintroduced an automatic visual inspection system into the production line, improving the pass rates by ~80% and increasing production speed. Additionally, in 2020, I achieved certification as a Quality Improvement Associate from the American Society of Quality.
-            <br>I hold a Bachelor of Science in Mechanical Engineering from the University of Vermont.
-          </p>
-          <p><br>
-            Feel free to check out my GitHub,
-            connect with me on LinkedIn,
-            or take a look at my resume.
-          </p>
+        </div>
 
-<!--
-    <span>
-        <p>
-          💻 <ins><a href="https://github.com/EvanMckenzie" target="_blank">GitHub </a></ins>
-          🔗 <ins><a href="https://www.linkedin.com/in/evanmckenzie/" target="_blank">LinkedIn </a></ins>
-          📃 <ins><a href="Resume/ETM_Resume.pdf" target="_blank">Resume </a></ins>
-        </p>
-      </span>
--->
-        </div> <!-- div col-mid-10-->
         <div class="col-md-1"></div>
+      </div>
 
-      </div> <!-- div row row-centered-->
+        <div class="row">
+
+          <div class="col-md-1">
+            <button id="bio_button" onclick="show_hide_func">
+              <h5>Read Bio</h5>
+            </button>
+          </div>
+
+          <div class="col-md-10" id="bio_paragraph">
+            <!-- blurb to direct to projects and resume -->
+            <p>
+              I am an electromechanical engineer with experience working in the medical device industry as a product designer and in manufacturing development. I believe that engineering is a skillset best used to develop products that enrich the lives of their users.
+              <br><br>
+              I have worked at Healthy Design Ltd., a start-up developing a novel restraint for patients in acute care, and Revision Military, a military hardware development company. At Healthy Design Ltd., I established a fully ISO 13485 compliant Quality Management System as well as product manufacturing system. At Revision Military, I recalibrated and reintroduced an automatic visual inspection system into the production line, improving the pass rates by ~80% and increasing production speed. Additionally, in 2020, I achieved certification as a Quality Improvement Associate from the American Society of Quality.
+              <br><br>
+              I hold a Bachelor of Science in Mechanical Engineering from the University of Vermont.
+            </p>
+            <p><br>
+              Feel free to check out my GitHub,
+              connect with me on LinkedIn,
+              or take a look at my resume.
+            </p>
+          </div>
+
+        </div>
+
+      <script>
+        function show_hide_func() {
+          var x = document.getElementbyId("bio_paragraph")
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
 
     </div> <!-- div container-->
   </body>

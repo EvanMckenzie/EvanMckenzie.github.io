@@ -16,6 +16,17 @@ body {
   margin: 0;
 }
 
+.button {
+  border: none;
+  background-color: inherit;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 16px;
+}
 
 .jumbotron  {
   margin: 0;
