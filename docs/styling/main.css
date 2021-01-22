@@ -21,11 +21,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background: url(/styling/nyc-sunset-cropped.jpg);
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .navbar-nav {
@@ -36,17 +31,15 @@ body {
    display: inline-block;
 }
 
-/*
-.heading-picture {
 
+.heading-picture {
   margin: 0;
   padding: 0;
   border: 0;
-  height: 700px;
-  background-size: contain;
-  background-position: top;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(/styling/nyc-sunset-cropped.jpg);
 
 }
-*/
