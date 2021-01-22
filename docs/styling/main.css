@@ -16,12 +16,24 @@ body {
   margin: 0;
 }
 
-.text_button {
+.pill_button {
+  background-color: #ddd;
   border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  cursor: pointer;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+  font-size: 20px;
+  border-radius: 16px;
+}
+
+.pill_button:hover {
+  opacity: 1;
 }
 
 .jumbotron  {

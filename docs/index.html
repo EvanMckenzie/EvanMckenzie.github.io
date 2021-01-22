@@ -107,12 +107,10 @@
 
         <div class="row">
 
-          <div class="col-md-1">
-            <h5>
-              <button class="text_button" onclick="show_hide_func()">
-                Read Bio
-              </button>
-            </h5>
+          <div class="col-md-2">
+            <button class="pill_button" onclick="show_hide_func()" id="bio_button">
+              Read Bio
+            </button>
           </div>
 
           <div class="col-md-10" id="bio_paragraph" style="display: none">
@@ -140,8 +138,10 @@
       var x = document.getElementById("bio_paragraph");
       if (x.style.display === "none") {
         x.style.display = "block";
+        document.getElementById("bio_button").value="Hide Bio";
       } else {
         x.style.display = "none";
+        document.getElementById("bio_button").value="Show Bio";
       }
     }
   </script>
