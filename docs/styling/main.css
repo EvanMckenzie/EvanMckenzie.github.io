@@ -16,16 +16,13 @@ body {
   margin: 0;
 }
 
-.button {
+.bio_button {
   border: none;
   background-color: inherit;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 4px 2px;
+  padding: 14px 28px;
+  font-size: 16px;
   cursor: pointer;
   display: inline-block;
-  border-radius: 16px;
 }
 
 .jumbotron  {
