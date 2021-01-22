@@ -19,8 +19,15 @@ body {
 
 .jumbotron  {
   margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url(/styling/nyc-sunset-cropped.jpg);
+  height: 700px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
 }
-
+/*
 .heading-picture {
 
   margin: 0;
@@ -33,3 +40,4 @@ body {
   background-image: url(/styling/nyc-sunset-cropped.jpg);
 
 }
+*/
