@@ -28,14 +28,14 @@ body {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  opacity: 0;
+  opacity: 0.6;
   transition: 0.3s;
   font-size: 20px;
   border-radius: 16px;
 }
 
 .pill_button:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .jumbotron  {
