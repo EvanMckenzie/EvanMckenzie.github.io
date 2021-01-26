@@ -73,7 +73,7 @@ body {
 
 .text-as-button {
   border: none;
-  background-color: #C0C0C0;
+  background-color: inherit;
   text-decoration: none;
   transition: 0.3s;
   font-size: 20px;
