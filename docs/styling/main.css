@@ -18,7 +18,7 @@ body {
   margin: 0;
 }
 
-.pill_button {
+.pill-button {
   background-color: #ddd;
   border: none;
   color: black;
@@ -34,7 +34,7 @@ body {
   border-radius: 16px;
 }
 
-.pill_button:hover {
+.pill-button:hover {
   opacity: 1;
 }
 
@@ -69,5 +69,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(/styling/nyc-sunset-cropped.jpg);
+}
 
+.text-as-button {
+  border: none;
+  background-color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.text-as-button:hover {
+  background-color: #C0C0C0;
+  opacity: 1;
 }
