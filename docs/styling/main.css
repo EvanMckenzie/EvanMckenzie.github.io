@@ -73,7 +73,7 @@ body {
 
 .text-as-button {
   border: none;
-  background-color: inherit;
+  background-color: #C0C0C0;
   text-decoration: none;
   transition: 0.3s;
   font-size: 20px;
@@ -83,6 +83,6 @@ body {
 }
 
 .text-as-button:hover {
-  background-color: #C0C0C0;
   opacity: 1;
+  text-decoration: none;
 }
